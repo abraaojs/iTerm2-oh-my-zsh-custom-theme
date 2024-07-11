@@ -124,3 +124,9 @@ autoload -Uz _zinit
 ### End of Zinit's installer chunk
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# History
+export HISTFILE="$HOME/.zsh_history"
+export HISTSIZE=10000
+export SAVEHIST=$HISTSIZE
+export TERM="xterm-256color"
